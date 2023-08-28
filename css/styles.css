@@ -1,0 +1,117 @@
+
+
+.container-home { /*container das paginas principas: Home, filmes, livros, personagens.*/
+    display: flex;
+    justify-content: center; /*Alinhamento horizontal*/
+    align-items: center; /*Alinhamento vertical*/
+    justify-content: space-between; /*espaçamento entre os elementos*/
+    flex-wrap: wrap;
+}
+
+.container-home img { /*padrão tamanho das imagens*/
+    width: 260px;
+    height: 260px;
+}
+
+
+.item { /*matérias das paginas principas: Home, filmes, livros, personagens.*/
+    padding: 25px;
+    width: 280px;
+    height: 430px;
+    margin: 10px;
+    flex-basis: 100px; /*faz que cada elemento tenha 100px por padrão de largura*/
+}
+
+.container-artigo { /*principal dentro dos artigos*/
+    display: flex;
+    padding: 10px;
+}
+
+
+.item-pagina { /*matéria dentro da noticias*/
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    margin-left: 20px;
+    width: 550px;
+    margin-top: 60px;
+}
+
+.item-pagina img{ /*imagem dentro das divs das noticias*/
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.texto-artigo {
+    flex: 1;
+    padding: 20px;
+    font-size: 19px;
+}
+
+.conteudo {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.navegacao { /* links que vao para outra pagina*/
+    list-style: none;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.cabeçalho {
+    background-image: url(../imagens/ceu.png);
+    font-size: 40px;
+    height: 350px;
+    display: flex; /*largura do cabeçaçlo*/
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a { /*formatação dos hiperklinks*/
+    text-decoration: none;
+    color: #004EA9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rodape {
+    text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto&display=swap');
+
+.cor-titulo-pagina {
+    color: yellow;
+    font-weight: bold;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.cor-navegacao {
+    color: yellow;
+    font-weight: bold;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.titulo-artigo {
+    font-family: 'Press Start 2P', cursive;
+}
+
+.nome-artigo {
+    font-family: 'Press Start 2P', cursive;
+}
+
+.cor-barra {
+    color: yellow ;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.tamanho {
+    width: 800px;
+}
